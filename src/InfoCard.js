@@ -12,7 +12,7 @@ const InfoCard = props => {
                 </div>
             </div>    
             <div className='image-container'>
-                <img className="nasaphoto" alt='Photo from NASA' src={props.image} style={{maxWidth: 900}}/>
+                <img className="nasaphoto" alt='A Galaxy' src={props.image} style={{maxWidth: 900}}/>
             </div>
             <div className='info-container'>
                 <p style={{textAlign: 'left'}}>{props.explanation}</p>
