@@ -22,11 +22,8 @@ function App() {
   return (
     
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
-      <InfoCard title={data.title} image={data.hdurl} date={data.date}/>
+      <h1>NASA Astronomy POD</h1>
+      <InfoCard title={data.title} image={data.hdurl} date={data.date} explanation={data.explanation}/>
     </div>
   );
 }
