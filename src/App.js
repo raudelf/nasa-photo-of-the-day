@@ -3,6 +3,8 @@ import axios from "axios";
 import "./App.css";
 import InfoCard from './InfoCard';
 
+// &date=2012-03-14 <----- Input for Users to change picture!
+
 function App() {
   const [data, setData] = useState([]);
   let nasaApi =
@@ -22,8 +24,7 @@ function App() {
   return (
     
     <div className="App">
-      <h1>NASA Astronomy POD</h1>
-      <InfoCard title={data.title} image={data.hdurl} date={data.date} explanation={data.explanation}/>
+      <InfoCard title={data.title} image={data.url} hdimage={data.hdurl} date={data.date} explanation={data.explanation}/>
     </div>
   );
 }
