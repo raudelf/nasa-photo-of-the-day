@@ -15,29 +15,26 @@ flex-direction: column;
 `;
 
 const Header = styled.div`
-width: 900px;
 display: flex;
 justify-content: space-between;
 align-items: baseline;
 `;
 
 const Headline = styled.h1`
-width: 900px;
 font-family: 'Audiowide', cursive;
 font-size: 46px;
 text-align: center;
 `;
 
 const Image = styled.div`
-width: 900px;
+width: 1000px
 `;
 
 const Img = styled.img`
-max-width: 900px;
+max-width: 1000px;
 `;
 
 const Info = styled.div`
-width: 900px;
 text-align: left;
 padding-bottom: 2%;
 `;
