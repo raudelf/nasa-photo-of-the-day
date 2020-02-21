@@ -20,7 +20,7 @@ function App() {
       .catch(err => {
         return `Error: ${err}`;
       });
-  }, []);
+  }, [nasaApi]);
   return (
     
     <div className="App">
